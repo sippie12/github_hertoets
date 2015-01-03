@@ -1,0 +1,24 @@
+Git cheat sheet 
+
+- git config = waarden zoals username en email instellen
+- git init = een nieuwe directory aanmaken
+- git add = voegt alle bestanden toe die verandert zijn
+- git rm =  verwijdert een bestant
+- git commit = upload het gesilecteerde item uit jouwn index	
+- git status = laat de status van je bestanden zien (of het all ge add/commit is)
+- git branch = laat een lijst zien met alle bestaande branches (aftakingen) en indien mogelijk kun je zo ook een nieuwe branch maken
+- git merge = merges een branche in joun branche (commit direct als erg geen coflicten zijn)
+- git reste = reste alles in joun index en werk directory naar de states van joun laatste commit
+- git fetch = haalt alles op van de remote repository dat niet niet local aanwezig is
+- git pull = haalt alles van de remote repository en merges het met de local 
+- git push = zet alles dat locaal verandert is op de remote repository
+- git remote = laat alle remote versies zien van je repository
+- git log = laat een lijst met alle commits op een branch zien
+
+
+Frank Winters
+Pict42A
+30-12-2014
+
+
+

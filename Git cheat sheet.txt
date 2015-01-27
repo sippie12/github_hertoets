@@ -1,30 +1,46 @@
 Git cheat sheet 
 - git config = waarden zoals username en email instellen
+
 - git init = een nieuwe directory aanmaken
+Git init directorynaam
+
 - git add = voegt alle bestanden toe die verandert zijn
 Git add bestand		 of:  git add * 	voor alle bestaden
+
 - git rm =  verwijdert een bestant
 Git rm foutbestand
+
 - git commit = upload het gesilecteerde item uit jouwn index
 Git commit bestandsnaam
 Git commit * 		=voor alle bestanden	
+
 - git status = laat de status van je bestanden zien (of het all ge add/commit is)
+
 - git branch = laat een lijst zien met alle bestaande branches (aftakingen)
-Git checkout –b nieuwebranchnaam		 om een branch te maken en daar in te gaan.
+Git branch nieuwebranchnaam		om een branch te maken.
+Git checkout –b branchnaam			om in een branch te  gaan.
+
 -git push origin branchnaam		 	om een branch te pushen naar github
-- git merge = merges een branche in joun branche (commit direct als erg geen coflicten zijn)
+
+- git merge = merges een branche in jouwn branche (commit direct als erg geen coflicten zijn)
 Git merge bestand
+
 - git reset = reste alles in joun index en werk directory naar de states van joun laatste commit
 Git reset bestand
+
 - git fetch = haalt alles op van de remote repository dat niet niet local aanwezig is
+
 - git pull = haalt alles van de remote repository en merges het met de local 
+
 - git push = zet alles dat locaal verandert is op de remote repository
+
 - git remote = laat alle remote versies zien van je repository
+
 - git log = laat een lijst met alle commits op een branch zien
--git reset (bestands naam) 	zet een bestand terug naar een vorige versie
+
+-git reset zet een bestand terug naar een vorige versie
 Git reset kapotbestand
 
 Frank Winters
 Pict42A
 27-1-2015
-
